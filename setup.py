@@ -16,7 +16,7 @@ DESCRIPTION = 'High fidelity neural audio codec'
 URL = 'https://github.com/facebookresearch/encodec'
 EMAIL = 'defossez@fb.com'
 AUTHOR = 'Alexandre Défossez, Jade Copet, Yossi Adi, Gabriel Synnaeve'
-REQUIRES_PYTHON = '>=3.8.0'
+REQUIRES_PYTHON = '>=3.7.0'
 
 for line in open('encodec/__init__.py'):
     line = line.strip()
